@@ -1,0 +1,23 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "aaaa",
+  "main": "outro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asasdasda.s",
+    "dasdasdas.dasdas",
+    "asdas"
+  ],
+  "author": "eu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "teste"
+  },
+  "dependencies": {
+    "axios": "^1.3.5"
+  }
+}
