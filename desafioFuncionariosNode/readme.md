@@ -1,8 +1,6 @@
-** Desafio Mulher Chinesa com Menor Salário **
+**Desafio Mulher Chinesa com Menor Salário**
 
-After defining these three functions, the code uses the axios library to make a GET request to a URL. When the request resolves, the function is called and the response data is stored in the funcionarios variable.
+This code uses the Axios library to make an HTTP request to a specific URL. Once the data is successfully returned in the response, the code filters and reduces through the data to obtain the woman who is Chinese and has the lowest salary. 
 
-Then, the code filters the funcionarios array to find only those elements that satisfy two conditions: they are from China and they are female. This is done by chaining the filter method twice, first with the chineses arrow function and then with the mulheres arrow function.
 
-Finally, the reduce method is called on the filtered array to find the menorSalario (lowest salary) of the female Chinese employees. The result is printed to the console using console.log().
-
+The code is divided into two parts: the initial code logics the task as a challenge and solved it in multiple steps whereas the second part is refactored to improve the logic and reduce the size of the code. \n\nThe final code includes a function that filters all employees from a particular country - in this case, China, then filters out women and finally reduces the employee list by salary to obtain the user's desired employee. 
